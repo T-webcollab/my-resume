@@ -1,0 +1,234 @@
+#education { background-color: #fff9e6; }
+#experience { background-color: #e6f9ff; }
+#skills { background-color: #e9f5e6; }
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:#cbd4dd; /* soft grayish blue */
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+}
+
+section {
+  background-color: #d5d6db;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Section Titles */
+h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #3498db;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Subheadings */
+h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #34495e;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 10px;
+}
+
+/* Layout for each section */
+
+
+/* Lists */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Experience & Education Items */
+.education-item,
+.experience-item,
+.skills-category {
+  margin-bottom: 20px;
+}
+
+
+/* Highlighted Labels */
+strong {
+  color: #2c3e50;
+}
+
+/* Links (optional, if you have links) */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design (Optional) */
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 20px;
+  }
+}
+
+/* Hobbies and Contact Sections */
+#hobbies ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+#hobbies li {
+  margin-bottom: 8px;
+}
+
+#contact a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+section:hover {
+  transform: translateY(-3px);
+  transition: transform 0.2s ease;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  font-size: 14px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.divider {
+  border: none;
+  height: 3px;
+  background: linear-gradient(to right, #3498db, #2980b9);
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.hero-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.hero-content h1 {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #555;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.project-card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.project-card a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: #3498db;
+}
+#cta {
+  text-align: center;
+  background-color: #dff9fb;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #2980b9;
+}
